@@ -16,7 +16,6 @@ namespace API.Controllers
 {
     public class ReservationsController : ApiController
     {
-
         [HttpGet]
         public async Task<ActionResult<ReservationsListVm>> GetAll(string? status, int? limit, int? offset)
         {

@@ -19,8 +19,6 @@ import { IImage } from '../models/image';
 import { IService, IServicesVm } from '../models/service';
 
 axios.defaults.baseURL = 'http://localhost:5000/api';
-//axios.defaults.baseURL = 'http://192.168.0.16:45455/api';
-//axios.defaults.baseURL = 'https://c18f15fefce6.ngrok.io/api';
 
 axios.interceptors.request.use(
   (config) => {

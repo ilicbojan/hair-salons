@@ -46,10 +46,7 @@ namespace API
                           .AllowAnyHeader()
                           .AllowAnyMethod()
                           .WithOrigins("http://localhost:3000",
-                                       "https://278638eac66a.ngrok.io",
-                                       "http://localhost:3001",
-                                       "https://40fbd116de39.ngrok.io",
-                                       "http://192.168.0.16:3000")
+                                       "http://localhost:3001")
                           .AllowCredentials();
                   });
               });
